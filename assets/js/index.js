@@ -6,7 +6,7 @@ const directToQuizPage = () => {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
 			try {
-				window.location.href = `${window.location.origin}/diabetes-melitus-quiz-app/quiz.html`
+				window.location.href = '/' + window.location.href.split('/')[3] + '/index.html'
 
 				resolve()
 			} catch (error) {
