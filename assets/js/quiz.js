@@ -365,7 +365,7 @@ const checkAnswer = (userAnswer, question) => {
 window.addEventListener('DOMContentLoaded', () => {
 	if (checkStorage()) {
 		if (!sessionStorage.getItem(USERNAME_SESSION_KEY)) {
-			directToPage('/')
+			directToPage('/' + window.location.href.split('/')[3] + '/index.html')
 			return
 		}
 
