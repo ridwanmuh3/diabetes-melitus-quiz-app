@@ -491,7 +491,7 @@ document.addEventListener(RENDER_EXPLANATION_EVENT, () => {
 			)
 
 			solutionTitle.innerHTML =
-				'Oops, Jawaban Kamu <br><span class="text-wrong-text-color">Masih Salah <img class="inline" src="../assets/img/sad.png" /></span>'
+				'Oops, Jawaban Kamu <br><span class="text-wrong-text-color">Masih Salah <img class="inline" src="./assets/img/sad.png" /></span>'
 			solutionQuestion.innerHTML = db[questionNumber - 1].text
 			userAnswerInfo.innerHTML = userAnswer
 			correctAnswerInfo.innerHTML = correctAnswer
@@ -506,7 +506,7 @@ document.addEventListener(RENDER_EXPLANATION_EVENT, () => {
 		}
 
 		solutionTitle.innerHTML =
-			'Yay, Jawaban Kamu <br><span class="text-correct-text-color">Sudah Benar <img class="inline" src="../assets/img/smile.png" /></span>'
+			'Yay, Jawaban Kamu <br><span class="text-correct-text-color">Sudah Benar <img class="inline" src="./assets/img/smile.png" /></span>'
 		document.getElementById('correct-answer-title').innerText = 'Jawaban Kamu'
 		solutionQuestion.innerHTML = db[questionNumber - 1].text
 		userAnswerInfo.parentElement.parentElement.classList.add(
