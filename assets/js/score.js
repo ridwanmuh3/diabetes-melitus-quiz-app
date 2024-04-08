@@ -89,11 +89,11 @@ window.addEventListener('DOMContentLoaded', () => {
 		homePageBtn.addEventListener('click', () => {
 			sessionStorage.clear()
 
-			directToPage('/index.html')
+			directToPage('./index.html')
 		})
 
 		tryAgainBtn.addEventListener('click', () => {
-			directToPage('/quiz.html')
+			directToPage('./quiz.html')
 		})
 
 		return
