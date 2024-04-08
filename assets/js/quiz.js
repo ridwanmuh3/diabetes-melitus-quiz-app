@@ -539,7 +539,7 @@ document.addEventListener(RENDER_EXPLANATION_EVENT, () => {
 			return
 		}
 
-		directToPage('/score.html')
+		directToPage('./score.html')
 		return
 	})
 })
