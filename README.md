@@ -1,1 +1,0 @@
-Pada aplikasi ini tersedia sepuluh pertanyaan yang berkaitan dengan Diabates Melitus. Pertanyaan - pertanyaan ini dibuat oleh mahasiswa keperawatan dari Politeknik Kesehatan Tasikmalaya program studi Keperawatam. Diharapkan dengan adanya aplikasi quiz ini, dapat meningkatkan pemahaman terkait dengan materi Diabetes Melitus.  
