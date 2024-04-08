@@ -59,7 +59,7 @@ const directToPage = (destinationPage) => {
 window.addEventListener('DOMContentLoaded', () => {
 	if (checkStorage()) {
 		if (!sessionStorage.getItem(TOTAL_QUESTIONS_KEY)) {
-			directToPage('/index.html')
+			directToPage('/' + window.location.href.split('/')[3] + '/index.html')
 			return
 		}
 
@@ -89,11 +89,11 @@ window.addEventListener('DOMContentLoaded', () => {
 		homePageBtn.addEventListener('click', () => {
 			sessionStorage.clear()
 
-			directToPage('./index.html')
+			directToPage('/' + window.location.href.split('/')[3] + '/index.html')
 		})
 
 		tryAgainBtn.addEventListener('click', () => {
-			directToPage('./quiz.html')
+			directToPage('/' + window.location.href.split('/')[3] + '/quiz.html')
 		})
 
 		return
