@@ -6,7 +6,7 @@ const directToQuizPage = () => {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
 			try {
-				window.location.href = '/' + window.location.href.split('/')[3] + '/index.html'
+				window.location.href = '/' + window.location.href.split('/')[3] + '/quiz.html'
 
 				resolve()
 			} catch (error) {
